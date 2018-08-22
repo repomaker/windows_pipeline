@@ -4,7 +4,7 @@ pipeline{
 	stages{
 		stage('test .NET version'){
 			steps {
-				powershell 'dotnet --version'
+				powershell 'ls'
 			}
 		}
 	}
